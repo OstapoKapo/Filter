@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Lato 700-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<!--Lato 700-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="filter">
+            <div class="btnExit">
+                <div class="btnExit__row" id="btnExit__row1"></div>
+                <div class="btnExit__row"  id="btnExit__row2"></div>
+            </div>
+            <p class="descr">Minimal age</p>
+            <div class="minAgeGroup">
+              <input type="range" min="7" max="30" class="minAgeInp" id="minAgeInp" value="7"></input>     
+              <div class="minAgeNumber" id="minAgeNumber"></div>  
+           </div>
+           <div class="minAgeBtn" id="minAgeBtn"><p class="sortNameGroup__btn__p">Ok</p>
+            <div class=" sortNameGroup__btn__img7 "></div></div>
+           <p class="descr">Sorting by Letters</p>
+           <div class="sortNameGroup">             
+              <div class="sortNameGroup__btn " id="sortNameGroup__btn__left">
+                <p class="sortNameGroup__btn__p">A-Z</p>
+                <div class=" sortNameGroup__btn__img5 "></div>
+              </div>
+             <div class="sortNameGroup__btn" id="sortNameGroup__btn__right"> <p class="sortNameGroup__btn__p">Z-A</p>
+                <div class=" sortNameGroup__btn__img6"></div></div>
+            
+           </div>
+           <p class="descr">Sorting by Age</p>
+           <div class="sortNameGroup">                      
+              <div class="sortNameGroup__btn sortNameGroup__btn_third " id="sortAgeGroup__btn__left">
+                <p class="sortNameGroup__btn__p">Older</p>
+                <div class="sortNameGroup__btn__img2"></div>
+            </div>    
+              <div class="sortNameGroup__btn sortNameGroup__btn_third" id="sortAgeGroup__btn__right">
+                <p class="sortNameGroup__btn__p">Younger</p>
+                <div class=" sortNameGroup__btn__img "></div>
+            </div>
+
+           </div>
+    
+           <p class="descr">Sorting by Money</p>
+           <div class="sortNameGroup">        
+              <div class="sortNameGroup__btn sortNameGroup__btn_second " id="sortMoneyGroup__btn__left">
+                <p class="sortNameGroup__btn__p">Bigger</p>
+                <div class=" sortNameGroup__btn__img3 "></div>
+                </div>
+              <div class="sortNameGroup__btn sortNameGroup__btn_second" id="sortMoneyGroup__btn__right">
+                <p class="sortNameGroup__btn__p">Smaller</p>
+                <div class=" sortNameGroup__btn__img4 "></div>
+                </div>
+      
+           </div>
+
+           
+           <p class="descr">Sorting by Weight</p>
+           <div class="sortNameGroup">        
+              <div class="sortNameGroup__btn sortNameGroup__btn_second " id="sortWeightGroup__btn__left">
+                <p class="sortNameGroup__btn__p">Fatter</p>
+                <div class=" sortNameGroup__btn__img8 "></div>
+                </div>
+              <div class="sortNameGroup__btn sortNameGroup__btn_second" id="sortWeightGroup__btn__right">
+                <p class="sortNameGroup__btn__p">Thinner</p>
+                <div class=" sortNameGroup__btn__img9"></div>
+                </div>
+      
+           </div>
+          
+          
+        </div>
+        <div class="option">
+        <div class="optionBtn">
+            <div class="optionBtn__row" id="optionBtn__row1"></div>
+            <div class="optionBtn__row optionBtn__row_second "id="optionBtn__row2"></div>
+            <div class="optionBtn__row optionBtn__row_tihrd" id="optionBtn__row3"></div>
+        </div>
+    </div>
+        <div class="container">
+        
+
+        <div class="userContainer">
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup__btn"></div>
+        <div class="popupInfo">
+             <p class="popupDescr" id="popupDescr">Info about </p>
+             <div class="popup__item">
+                <div class="popup__item__left">
+                    <div class="popup__item__left__profil"></div>
+                </div>
+                <div class="popup__item__right">
+                    <div class="popup__item__right__p" id="popup__item__right__p1">Age:18 </div>
+                    <div class="popup__item__right__p" id="popup__item__right__p2">Age:18 </div>
+                    <div class="popup__item__right__p" id="popup__item__right__p3">Age:18 </div>
+                    <div class="popup__item__right__p" id="popup__item__right__p4">Age:18 </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
